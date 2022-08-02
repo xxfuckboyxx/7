@@ -1,0 +1,75 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 110, 0);
+}
+
+body {
+    background-image: url(/pizzeria/img/confeti.gif);
+}
+
+.divv {
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    height: 25%;
+}
+
+.divvv2 {
+    border-radius: 100px;
+    background-color: rgb(50, 50, 50);
+    width: 21%;
+    height: 600px;
+    margin-right: 20px;
+    margin-top: 0px;
+    display: table-column;
+}
+
+main {
+    display: flex;
+    justify-content: right;
+}
+
+.divvvv {
+    border-radius: 100px;
+    background-image: url(img/muzza02.jpeg);
+    width: 75%;
+    height: 600px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(20, 20, 20);
+}
+
+.pedido {
+    background-image: url(/pizzeria/img/logo01-removebg-preview.png);
+    background-repeat: no-repeat;
+    margin: 15%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: flex;
+    text-align: center;
+    height: min-content;
+    width: min-content;
+    border-radius: 50px;
+    background-size: 300px;
+    background-color: rgba(248, 251, 251, 0.863);
+    background-position: center;
+}
